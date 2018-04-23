@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Simonetta:400,900|Ubuntu:400,700");
+body {
+  background: #222;
+  color: white;
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  color: white;
+  font-family: "Simonetta", cursive;
+  font-size: 2em;
+}
+.counter {
+  font-family: "Ubuntu", sans-serif;
+  width: 400px;
+  font-weight: 700;
+  margin: 2em auto 0 auto;
+  color: #222;
+  background: white;
+}
+
+.counter p {
+  margin: 0;
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  opacity: 0.5;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.box-1 {
+  background: #44d353;
+}
+.box-2 {
+  background: #fa2e18;
+}
+.box-3 {
+  background: #fff72f;
+}
+.box-4 {
+  background: #0195ea;
+}
+
+.buttons {
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.glow {
+  opacity: 1;
+}
+
+.btn-default {
+  font-family: "Simonetta", cursive;
+  font-weight: 900;
+  background: white;
+  border: 1px solid white;
+  outline: none;
+  color: #222;
+  width: 50%;
+  padding: 0.5em;
+}
+
+.btn-default:hover,
+.btn-default:active,
+.strict-active  {
+  background: #222;
+  color: white;
+}
+
+.footer {
+  margin-top: 1em;
+  font-family: "Simonetta", cursive;
+  color: white;
+}
+
+.footer a {
+  font-family: "Simonetta", cursive;
+  text-decoration: none;
+  font-weight: 900;
+  color: white;
+}
