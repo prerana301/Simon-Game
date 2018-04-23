@@ -1,6 +1,5 @@
 # Simon Game
 ## freeCodeCamp Advanced Front End Development Project
-## [Live Demo](https://jimmy-guzman.github.io/simongame/)
 ### Project Goals Completed:
 * The user is presented with a random series of button presses.
 * Each time the user inputs a series of button presses correctly, they see the same series of button presses but with an additional step.
